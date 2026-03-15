@@ -1,0 +1,63 @@
+/* style.css */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: #1a1a1a url('brick-wall.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 0 30px #00ff88, 0 0 60px #00ff88, 0 0 90px #00ff88;
+}
+
+.neon-title {
+    font-size: 3rem;
+    color: #00ff88;
+    text-shadow: 0 0 5px #00ff88, 0 0 10px #00ff88, 0 0 20px #00ff88;
+    margin-bottom: 40px;
+}
+
+.start-buttons input {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.start-buttons button {
+    padding: 12px 25px;
+    font-size: 1rem;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    background: #00ff88;
+    color: #000;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.start-buttons button:hover {
+    box-shadow: 0 0 10px #00ff88, 0 0 20px #00ff88;
+}
+
+.hidden {
+    display: none;
+}
+
+#roomLink input {
+    width: 80%;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+}
